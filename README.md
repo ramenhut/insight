@@ -17,9 +17,7 @@ The primary interface to Insight is the CompareImages function:
 
 
 
-    FLOAT32 vnCompareImages( CONST CVImage & pA,
- 
-                            CONST CVImage & pB );
+    FLOAT32 vnCompareImages( CONST CVImage & pA, CONST CVImage & pB );
 
 
 
@@ -27,7 +25,9 @@ This function will return a value in the interval of [0,1] that indicates the pe
 
 
 
-CVImage objects are simple wrappers around a formatted memory buffer. To create a new image, call vnCreateImage(), passing in the dimensions and desired image format (currently only VN_IMAGE_FORMAT_R8G8B8 is supported by Insight). Once this call completes, the image object is allocated and ready to be filled with your image data. You can supply this data by copying it to the address indicated by CVImage::QueryData(). Don't forget to call vnDestroyImage() when you've finished with your image object.
+CVImage objects are simple wrappers around a formatted memory buffer. To create a new image, call vnCreateImage(), passing in the dimensions and desired image format (currently only VN_IMAGE_FORMAT_R8G8B8 is supported by Insight). 
+
+Once this call completes, the image object is allocated and ready to be filled with your image data. You can supply this data by copying it to the address indicated by CVImage::QueryData(). Don't forget to call vnDestroyImage() when you've finished with your image object.
 
 # More Information
 
