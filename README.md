@@ -12,7 +12,7 @@ This is accomplished by generating a pair of digital fingerprints of two files i
 
 For more information about Insight and how it works, visit [bertolami.com](http://bertolami.com/index.php?engine=blog&content=posts&detail=perceptual-hashing).
 
-Using Insight
+# Using Insight
 
 =======
 
