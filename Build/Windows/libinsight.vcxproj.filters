@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Imagine">
+      <UniqueIdentifier>{171e68ad-7610-4e8d-b4fc-420841361514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Platform">
+      <UniqueIdentifier>{a61717bd-ba74-4557-9abe-d3105e7db9e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Imagine">
+      <UniqueIdentifier>{ffc07a06-28d9-459b-a6d3-d52b1ab40ba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Platform">
+      <UniqueIdentifier>{33a9c6a9-93eb-4fba-bd06-deea477a406b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\vnInsight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Imagine\vnImagine.h">
+      <Filter>Header Files\Imagine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Platform\vnPlatform.h">
+      <Filter>Header Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Platform\vnProfile.h">
+      <Filter>Header Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Platform\vnStandard.h">
+      <Filter>Header Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Platform\vnVersion.h">
+      <Filter>Header Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Platform\vnBase.h">
+      <Filter>Header Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Platform\vnBitStream.h">
+      <Filter>Header Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Platform\vnError.h">
+      <Filter>Header Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Platform\vnMath.h">
+      <Filter>Header Files\Platform</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\vnInsight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Imagine\vnImageInterface.cpp">
+      <Filter>Source Files\Imagine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Imagine\vnImageResize.cpp">
+      <Filter>Source Files\Imagine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Imagine\vnImageTransform.cpp">
+      <Filter>Source Files\Imagine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Imagine\vnImage.cpp">
+      <Filter>Source Files\Imagine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Imagine\vnImageDesaturate.cpp">
+      <Filter>Source Files\Imagine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Platform\vnBitStream.cpp">
+      <Filter>Source Files\Platform</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
